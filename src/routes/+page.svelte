@@ -3,7 +3,7 @@
   import Segment from "$lib/components/custom/7segment/7segment.svelte";
   import DollarInput from "$lib/components/custom/DollarInput/dollar-input.svelte";
   import Ecard from "$lib/components/custom/eCard/ecard.svelte";
-  import Editor from "$lib/components/custom/editor/editor.svelte";
+  import Editor from "$lib/components/custom/BlockEditor/editor.svelte";
   import Heart from "$lib/components/custom/Heart/heart.svelte";
   import Stars from "$lib/components/custom/Stars/stars.svelte";
   import WrappedInput from "$lib/components/custom/WrappedInput/wrapped-input.svelte";
