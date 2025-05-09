@@ -1,0 +1,16 @@
+{
+    "name": "Svelte Components",
+    "short_name": "svelte-components",
+    "description": "A collection of Svelte components",
+    "start_url": "/svelte-components/",
+    "scope": "/svelte-components/",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "favicon.png",
+            "sizes": "1024x1024",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}
