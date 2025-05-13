@@ -11,6 +11,7 @@
   import Label from "$lib/components/ui/label/label.svelte";
   import { Github } from "lucide-svelte";
   import { type Snippet } from "svelte";
+  import Sentiment from "$lib/components/Sentiment/sentiment.svelte";
 </script>
 
 <div class="grid items-center justify-center gap-2 p-4">
@@ -62,5 +63,10 @@
   <div class="grid justify-items-center gap-4 p-4 bg-muted rounded-lg h-min">
     <Label>Block Editor</Label>
     <Editor class="w-64" />
+  </div>
+
+  <div class="grid justify-items-center gap-4 p-4 bg-muted rounded-lg h-min">
+    <Label>Sentiment</Label>
+    <Sentiment />
   </div>
 </div>
